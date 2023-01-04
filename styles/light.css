@@ -7,10 +7,6 @@
   -webkit-appearance: none;
 }
 
-::placeholder {
-  color: rgb(221, 221, 221);
-}
-
 .wrapper {
   height: 100vh;
   width: 100%;
@@ -18,7 +14,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(20, 19, 19);
+  background-color: rgb(7, 210, 199);
   transition: 0.8s all;
 }
 
@@ -46,16 +42,15 @@ h1 {
 .top-buttons {
   display: flex;
   align-items: center;
-
 }
 
 input {
   padding: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(87, 87, 87);
   font-size: 1em;
   cursor: pointer;
   width: 70px;
-  background-color: rgb(47, 51, 50);
+  background-color: #fff;
   border: none;
   outline: none;
   border-radius: 100px;
@@ -70,19 +65,23 @@ input {
   margin-bottom: 4px;
 }
 
+input[type="button"] {
+  color: rgb(122, 122, 122);
+}
+
 input[type="text"] {
-  background-color: rgb(47, 51, 50);
+  background-color: rgb(255, 255, 255);
   width: 222.5px;
 }
 
 input[type="button"]:hover {
-  background-color: rgb(101, 101, 101);
+  background-color: rgb(37, 35, 59);
   color: #fff;
 }
 
 #clear-button {
   color: #fff;
-  background-color: rgb(255, 42, 42);
+  background-color: rgb(255, 25, 25);
 }
 
 a {
